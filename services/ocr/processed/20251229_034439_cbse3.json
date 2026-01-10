@@ -1,0 +1,65 @@
+{
+  "board": "CBSE",
+  "student_name": "ADITYAKEERTI",
+  "roll_number": "22164964",
+  "mother_name": "SANGEETA SHARMA",
+  "father_name": null,
+  "school_name": "DAV PUB SCH NAYATOLA KESHOPUR JAMALPUR MUNGER BR",
+  "school_code": "65318",
+  "subjects": [
+    {
+      "code": "184",
+      "name": "ENGLISH LANG & LIT.",
+      "theory_marks": 70,
+      "practical_marks": 20,
+      "total_marks": 90,
+      "total_in_words": "NINE ZERO",
+      "grade": "A2"
+    },
+    {
+      "code": "122",
+      "name": "SANSKRIT",
+      "theory_marks": 71,
+      "practical_marks": 20,
+      "total_marks": 91,
+      "total_in_words": "NINE ONE",
+      "grade": "A2"
+    },
+    {
+      "code": "041",
+      "name": "MATHEMATICS STANDARD",
+      "theory_marks": 60,
+      "practical_marks": 20,
+      "total_marks": 80,
+      "total_in_words": "EIGHT ZERO",
+      "grade": "B1"
+    },
+    {
+      "code": "086",
+      "name": "SCIENCE",
+      "theory_marks": 49,
+      "practical_marks": 20,
+      "total_marks": 69,
+      "total_in_words": "SIX NINE",
+      "grade": "B1"
+    },
+    {
+      "code": "087",
+      "name": "SOCIAL SCIENCE",
+      "theory_marks": 69,
+      "practical_marks": 20,
+      "total_marks": 89,
+      "total_in_words": "EIGHT NINE",
+      "grade": "A2"
+    },
+    {
+      "code": "165",
+      "name": "COMPUTER APPLICATIONS",
+      "theory_marks": 26,
+      "practical_marks": 70,
+      "total_marks": 96,
+      "total_in_words": "NINE SIX",
+      "grade": "A2"
+    }
+  ]
+}

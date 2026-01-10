@@ -1,0 +1,27 @@
+
+
+ की शैक्षणिक उपलब्धियां निम्नानुसार हैं has achieved Scholastic Achievements as under : 
+
+                                                  प्राप्तांक MARKS OBTAINED 
+  विषय कोड             विषय                                                     स्थितीय ग्रेड 
+   SUB.              SUBJECT               लिखित   आं. मू. योग    योग (शब्दों में) POSITIONAL 
+  CODE                                    THEORY   IA/   TOTAL TOTAL (IN WORDS) GRADE 
+                                                   प्रा. PR. 
+
+    184   ENGLISH LANG & LIT.              070     020    090    NINETY             A2 
+
+    122   SANSKRIT                         071     020    091    NINETY ONE         A2 
+
+    041   MATHEMATICS STANDARD             060     020    080    EIGHTY             B1 
+
+    086   SCIENCE                          049     020    069    SIXTY NINE         B1 
+
+    087   SOCIAL SCIENCE                    069    020     089   EIGHTY NINE         A2 
+
+          ADDITIONAL SUBJECT 
+
+   165    COMPUTER APPLICATIONS             026    070     096    NINETY SIX         A2 
+
+संक्षिप्तयों का अर्थ : Abbreviations 
+                                                    परिणाम Result PASS 
+<<<
