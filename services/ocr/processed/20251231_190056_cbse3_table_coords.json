@@ -1,0 +1,31 @@
+{
+  "file": "E:\\CODING\\Hackathon\\HackTheWinter\\FINAL ASSEMBLY\\backend-ocr\\uploads\\20251231_190056_cbse3.jpg",
+  "table_coordinates": [
+    {
+      "table_id": 1,
+      "table_type": "Marks Table",
+      "confidence": 0.991364598274231,
+      "coordinates": {
+        "x1": 60.73067092895508,
+        "y1": 636.5548706054688,
+        "x2": 855.4044799804688,
+        "y2": 1004.4444580078125
+      },
+      "width": 794.6738090515137,
+      "height": 367.88958740234375
+    },
+    {
+      "table_id": 2,
+      "table_type": "Information Table",
+      "confidence": 0.7182321548461914,
+      "coordinates": {
+        "x1": 45.13822555541992,
+        "y1": 406.98138427734375,
+        "x2": 642.5137939453125,
+        "y2": 626.7972412109375
+      },
+      "width": 597.3755683898926,
+      "height": 219.81585693359375
+    }
+  ]
+}
