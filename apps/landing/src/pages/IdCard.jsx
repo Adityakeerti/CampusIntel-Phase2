@@ -14,7 +14,7 @@ const initialTeamMembers = [
     idNumber: "EMP-002-MC",
     name: "Adityakeerti",
     role: "Team Lead",
-    bio: "Systems architect ensuring our tech stack remains cutting-edge and scalable for global users.",
+    bio: "Systems architect and project owner, responsible for end-to-end delivery of CampusIntel. Ensured scalable microservice design, cross-team coordination, and seamless integration across AI, backend, and frontend systems.",
     image: TLImg,
     socials: { github: "https://github.com/Adityakeerti", linkedin: "https://www.linkedin.com/in/adityakeerti" }
   },
@@ -23,7 +23,7 @@ const initialTeamMembers = [
     idNumber: "EMP-003-ER",
     name: "Megha Singh",
     role: "Product Strategist",
-    bio: "Bridges complex data and user delight, driving roadmap toward meaningful innovation.",
+    bio: "Product visionary translating campus workflows into scalable digital solutions. Defined feature scope, user journeys, and priorities to align OCR, AI, library, and social modules with real academic needs.",
     image: MeghaImg,
     socials: { github: "https://github.com/megha-singh38", linkedin: "https://www.linkedin.com/in/meghasingh2004" }
   },
@@ -31,8 +31,8 @@ const initialTeamMembers = [
     id: "m1",
     idNumber: "EMP-001-SJ",
     name: "Arpan Singh",
-    role: "Chief Design Officer",
-    bio: "Focusing on human-centric interfaces and visual storytelling with 12 years of industry leadership.",
+    role: "Chief Design",
+    bio: "Experience designer shaping intuitive, consistent, and accessible user interfaces. Focused on information hierarchy, workflow clarity, and visual coherence across dashboards and system interactions.",
     image: ArpanImg,
     socials: { github: "https://github.com/Arpan010", linkedin: "https://www.linkedin.com/in/arpan-singh-105995318" }
   },
@@ -41,7 +41,7 @@ const initialTeamMembers = [
     idNumber: "EMP-004-JW",
     name: "Aditya Kumar Bhardwaj",
     role: "Lead Motion Designer",
-    bio: "Believes animation is the heartbeat of UX. Specializes in fluid, physics-based interactions.",
+    bio: "Interaction and motion systems designer enhancing usability through animations and visual feedback. Worked closely with frontend and database-driven flows to reflect real-time state changes, data transitions, and system responses smoothly.",
     image: AdityaImg,
     socials: { github: "https://github.com/099Aditya", linkedin: "https://www.linkedin.com/in/aditya-bhardwaj-b89381297/" }
   }
@@ -247,30 +247,36 @@ const achievements = [
 ];
 
 export default function App() {
-  const [members] = useState(initialTeamMembers);
+  const [members, setMembers] = useState([]);
 
-  // Scroll to top when component mounts
   useEffect(() => {
     window.scrollTo(0, 0);
+
+    // Shuffle logic: 
+    const teamLead = initialTeamMembers.find(m => m.role === "Team Lead");
+    const others = initialTeamMembers.filter(m => m.role !== "Team Lead");
+
+    const shuffledOthers = [...others].sort(() => Math.random() - 0.5);
+    setMembers([teamLead, ...shuffledOthers]);
   }, []);
 
   return (
     <div className="min-h-screen bg-black flex flex-col items-center p-6 overflow-x-hidden relative">
-      <div className="fixed inset-0 pointer-events-none z-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-jake-blue/5 via-transparent to-transparent opacity-40 mix-blend-screen" />
+      <div className="fixed inset-0 pointer-events-none z-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-[#29B6F6]/5 via-transparent to-transparent opacity-40 mix-blend-screen" />
       <div className="fixed inset-0 pointer-events-none z-0 opacity-[0.03]" style={{ backgroundImage: `linear-gradient(to right, #29B6F6 1px, transparent 1px), linear-gradient(to bottom, #29B6F6 1px, transparent 1px)`, backgroundSize: '40px 40px' }} />
 
       <div className="w-full max-w-7xl z-10 pt-10">
         <header className="mb-20 text-center relative">
           <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <h1 className="text-5xl md:text-7xl font-black text-white tracking-tighter mb-4 drop-shadow-[0_0_25px_rgba(41,182,246,0.5)]">
-              CORE <span className="text-jake-blue">TEAM</span>
+              CORE <span className="text-[#29B6F6]">TEAM</span>
             </h1>
             <div className="flex items-center justify-center gap-3">
-              <div className="h-[1px] w-12 bg-jake-blue/50" />
+              <div className="h-[1px] w-12 bg-[#29B6F6]/50" />
               <p className="text-zinc-500 uppercase tracking-[0.5em] text-[10px] font-bold">
                 [ 404 Verified Internal Records ]
               </p>
-              <div className="h-[1px] w-12 bg-jake-blue/50" />
+              <div className="h-[1px] w-12 bg-[#29B6F6]/50" />
             </div>
           </motion.div>
         </header>
