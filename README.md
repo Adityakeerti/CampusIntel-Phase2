@@ -74,10 +74,8 @@ docker-compose up -d
 
 ## 📚 Documentation
 
-- [Architecture Overview](docs/ARCHITECTURE_CURRENT.md)
-- [Database Schema](docs/DATABASE.md)
-- [AI & RAG System](docs/AI_SECTION.md)
-- [Future Roadmap](docs/FUTURE_ARCHITECTURE.md)
+- [DOCUMENTATION](docs/DOCUMENTATION.md)
+- [HISTORY](docs/HISTOTY.md)
 
 ## 🎥 Demo
 
