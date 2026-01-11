@@ -74,8 +74,11 @@ docker-compose up -d
 
 ## 📚 Documentation
 
-- [DOCUMENTATION](docs/DOCUMENTATION.md)
-- [HISTORY](docs/HISTORY.md)
+Comprehensive resources covering all aspects of the project, including architecture, features, setup, and development history.
+
+- [DOCUMENTATION](docs/DOCUMENTATION.md) — Detailed technical and user documentation
+- [HISTORY](docs/HISTORY.md) — Complete project change log and evolution
+
 
 ## 🎥 Demo
 
@@ -95,4 +98,3 @@ docker-compose up -d
 ---
 
 *Built for HackTheWinter Hackathon 🏆*
-"# dump-repo" 
