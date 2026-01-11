@@ -193,14 +193,10 @@ const App = () => {
   ];
 
   const infoData = [
-    { id: 1, icon: Shield, title: "Secure Core", desc: "Our security system is built on a robust multi-layer architecture. With AES-256 encryption and secure tunneling, your data remains protected at all times. Each entry point is individually monitored to proactively mitigate zero-day vulnerabilities.
-" },
-    { id: 2, icon: Zap, title: "Hyper Fast", desc: "Sub-millisecond processing power for real-time demands.", fullInfo: "Our next-generation processing pipelines can handle data throughput exceeding 10 GB/s. We optimize compute performance to ensure that even complex calculations deliver instant, reliable results.
-" },
-    { id: 3, icon: Globe, title: "Global Reach", desc: "Distributed edge network ensuring zero-latency access.", fullInfo: "Our globally distributed CDN network ensures your content reaches users with minimal latency. With active edge nodes in 150+ locations, we deliver fast and reliable performance worldwide.
-" },
-    { id: 4, icon: Cpu, title: "Neural Mesh", desc: "Self-learning architecture that adapts to user patterns.", fullInfo: "Our system is AI-driven, continuously analyzing traffic patterns and proactively allocating resources. This approach improves overall system efficiency by up to 40%.
-" }
+    { id: 1, icon: Shield, title: "Secure Core", desc: "Our security system is built on a robust multi-layer architecture. With AES-256 encryption and secure tunneling, your data remains protected at all times. Each entry point is individually monitored to proactively mitigate zero-day vulnerabilities." },
+    { id: 2, icon: Zap, title: "Hyper Fast", desc: "Sub-millisecond processing power for real-time demands.", fullInfo: "Our next-generation processing pipelines can handle data throughput exceeding 10 GB/s. We optimize compute performance to ensure that even complex calculations deliver instant, reliable results." },
+    { id: 3, icon: Globe, title: "Global Reach", desc: "Distributed edge network ensuring zero-latency access.", fullInfo: "Our globally distributed CDN network ensures your content reaches users with minimal latency. With active edge nodes in 150+ locations, we deliver fast and reliable performance worldwide." },
+    { id: 4, icon: Cpu, title: "Neural Mesh", desc: "Self-learning architecture that adapts to user patterns.", fullInfo: "Our system is AI-driven, continuously analyzing traffic patterns and proactively allocating resources. This approach improves overall system efficiency by up to 40%." }
   ];
 
   const activeContent = activeModal.type === 'info'
