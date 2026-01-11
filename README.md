@@ -75,7 +75,7 @@ docker-compose up -d
 ## 📚 Documentation
 
 - [DOCUMENTATION](docs/DOCUMENTATION.md)
-- [HISTORY](docs/HISTOTY.md)
+- [HISTORY](docs/HISTORY.md)
 
 ## 🎥 Demo
 
