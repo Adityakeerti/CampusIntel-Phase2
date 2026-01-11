@@ -197,7 +197,8 @@ const infoData = [
     id: 1,
     icon: Shield,
     title: "Secure Core",
-    desc: "Our security system is built on a robust multi-layer architecture. With AES-256 encryption and secure tunneling, your data remains protected at all times. Each entry point is individually monitored to proactively mitigate zero-day vulnerabilities."
+    desc: "Robust multi-layer architecture with AES-256 encryption and secure tunneling.",
+    fullInfo: "Our security system is built on a robust multi-layer architecture. With AES-256 encryption and secure tunneling, your data remains protected at all times. Each entry point is individually monitored to proactively mitigate zero-day vulnerabilities."
   },
   {
     id: 2,
