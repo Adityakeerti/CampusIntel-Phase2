@@ -2,6 +2,8 @@
 
 A comprehensive multi-service platform for campus automation, AI-powered assistance, and document processing.
 
+**[Live Site](https://campusintel-phase2.onrender.com/)**
+
 ## 📁 Project Structure
 
 ```

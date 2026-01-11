@@ -52,6 +52,7 @@ Unified Campus Intelligence is a prototype system designed to automate campus op
 This repository reflects the fully implemented prototype. All features are sourced from the codebase; no unimplemented proposals are claimed.
 
 **Quick Links**:
+- [Live Site](https://campusintel-phase2.onrender.com/)
 - [Demo Video](https://youtu.be/RIfFyF_utRg)
 - [Core Backend Documentation](./CORE_BACKEND.md)
 - [Database Schema](./DATABASE.md)
