@@ -252,7 +252,7 @@ export default function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
 
-    // Shuffle logic: 
+    // Shuffle logic
     const teamLead = initialTeamMembers.find(m => m.role === "Team Lead");
     const others = initialTeamMembers.filter(m => m.role !== "Team Lead");
 
