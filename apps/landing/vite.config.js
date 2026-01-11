@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/Angry/', // GitHub Pages base path
+  // base: '/Angry/', // REMOVED: Causing blank page on Render (unless serving from /Angry subpath)
 })
